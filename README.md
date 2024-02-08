@@ -7,6 +7,6 @@
   </head>
   <body>
     <header>
-      <h1>This is a website for my 2120 class.</h1>
+      <h1>This is a website for my web development class.</h1>
     </header>
   </body>
