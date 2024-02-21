@@ -1,0 +1,118 @@
+/*Font and Font size*/
+
+body{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/*Header Styling*/
+header {
+    background-color: #00ca8e;
+    padding: 1rem 12vw;
+}
+header h1 {
+    color: #16425e;
+    margin: 0;    
+}
+header p {
+    color: #16425e;
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+
+/* nav stuf goes here */
+nav {
+    background-color: #4cd1ad;
+    
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 12vw;
+    margin: 0;
+    display: flex;
+}
+nav ul li a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #16425e;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav li.active a {
+    background-color:#16425e;
+    color:#4cd1ad;
+}
+nav a:hover {
+    color:white
+}
+
+/*Stuff for the main*/
+main {
+    padding: 1rem 6vw;
+    font-size: 1.2rem;
+}
+main h1 {
+    color: #75161e;
+}
+main h2 {
+    color: #16425e;
+    margin-bottom: .2rem;
+}
+main p {
+    color: #2f3133;
+    margin: 0 0 .3rem 0;
+}
+main ol {
+    padding: .5rem 3vw;
+    background-color: #efefef;
+}
+main dl dt {
+    color: #75161e;
+    font-weight: 700;
+}
+main dl dd {
+    color: #16425e;
+    font-size: .9rem;
+}
+main ul {
+    list-style-type: circle;
+
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main address {
+    font-style: normal;
+    background-color: #4cd1ad;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1px solid #16425e;
+    border-radius: 5px;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #eaeaea;
+    text-align: center;
+    color: #16425e;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+footer a {
+    color: #16425e;
+}
+a:hover {
+    color: #75161e;
+}
+
+main a {
+    color: #16425e;
+}
+a:hover {
+    color: #75161e;
+}
