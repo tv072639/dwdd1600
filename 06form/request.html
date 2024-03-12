@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Tommy">
+        <meta name="description" content="Learn about anticonsumer moves!">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Anticonsumer News: Home</title>
+        <link rel="stylesheet" href="traveler.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    </head>
+
+    <!--Start of the page header-->
+    <body>
+        <header>
+            <h1>Welcome to the Anticonsumer news website!</h1>
+            <p>Learn the latest news about anticonsumer moves!</p>
+        </header>
+    <!--Navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Welcome to the Anticonsumer news website</a></li>
+            <li><a href="samsungmoto.html">Samsung and Motorola blocking phones in Mexico for no reason</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li class="active"><a href="request.html">Request form</a></li>
+        </ul>
+    </nav>
+    <!--Page Content-->
+    <main>
+        <h1>Request Form</h1>
+        <p>Fill out a request for what news you would like to see!</p>
+
+        <form method="get" class="myForm" action="thanks.html">
+
+            <fieldset>
+                <legend>Your information</legend>
+                <label>Name<input type="text" name="fname" required></label>
+                <label>Email<input type="text" name="email" required></label>
+                <label>Phone number<input type ="tel" name="cell"></label>
+                <label>Subject<input type="text" name="subject" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>What is this about?</legend>
+                <label><input type="radio" name="method" value="newnews">New News</label>
+                <label><input type="radio" name="method" value="oneofakind">News not found anywhere else</label>
+                <label><input type="radio" name="method" value="anythingelse">Anything else</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>What product is this about?</legend>
+                <label><input type ="checkbox" name="consumer electronics" value="chosen">Consumer Electronics</label>
+                <label><input type ="checkbox" name="Enterprise electronics" value="chosen">Enterprise Electronics</label>
+                <label><input type = "checkbox" name="Other stuff" value="chosen">Other Stuff</label>
+
+                <select name="Evenmoreuselessstuff">
+                    <option value="none">Please Select</option>
+                    <option value="morning">Mobile phones</option>
+                    <option value="noon">Desktop Computers</option>
+                    <option value="afternoon">Laptops</option>
+                    <option value="evening">Other</option>
+                    </select>
+            </fieldset>
+            
+            <label>Comments
+                <textarea name="comments" placeholder="Please add info about what you're contacting us about"></textarea>
+
+            </label>
+
+
+            <input type="submit" value="Send off your request">
+        </form>
+        </main>
+
+ <!-- Start of the page footer-->
+ <footer>
+    <p>&copy; 2024 &bull; Tommy &bull; <a href="mailto:tv072639@stu.provo.edu">Email Us</a> &bull; <a href=tel:111111111>Call Us</a></p>
+ </footer>   
+ </html>
