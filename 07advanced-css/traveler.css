@@ -41,8 +41,6 @@ header p {
         list-style-type: none;
         padding: 0;
         margin: 0;
-        display: flex;
-	align-items: column;
     }
     nav ul li a {
         font-size: 1.1rem;
@@ -86,7 +84,7 @@ header p {
         border-bottom: solid 2px #00ca8e;
     }
     nav a:hover {
-        color:white
+        color:grey;
     }
 } /*END OF BIG SCREENS*/
 
