@@ -1,0 +1,259 @@
+/*Font and Font size*/
+
+body{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/*Header Styling*/
+header {
+    background-color: #00ca8e;
+    padding: 1rem 12vw;
+    display: flex;
+    align-items: flex-end;
+}
+header div{
+    padding-left: 1vw;
+}
+header h1 {
+    color: #16425e;
+    margin: 0;    
+}
+header p {
+    color: #16425e;
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+
+/*SMALL SCREENS*/
+@media only screen and (max-width: 600px) {
+        /* nav stuf goes here */
+
+    body {
+        margin: 0;
+    }
+    nav {
+        background-color: #4cd1ad;
+        width: 100%;
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    nav ul li a {
+        font-size: 1.1rem;
+        text-decoration: none;
+        color: #16425e;
+        font-weight: 700;
+        display: block;
+        padding: .415rem 1rem;
+    }
+    nav li.active a {
+        background-color:#16425e;
+        color:#4cd1ad;
+        background-image: linear-gradient(to bottom, #16425e, #072234)
+    }
+    nav a:hover {
+        color:white
+    }
+} /*End of small screens / media query */
+
+
+@media only screen and (min-width: 600px) {
+
+    /* BIG SCREENS */
+    /* nav stuf goes here */
+    nav ul {
+        list-style-type: none;
+        padding: 0 12vw;
+        margin: 0;
+        display: flex;
+    }
+    nav ul li a {
+        font-size: 1.1rem;
+        text-decoration: none;
+        color: #16425e;
+        font-weight: 700;
+        display: block;
+        padding: .83rem 2rem;
+    }
+    nav li.active a {
+        color:#4cd1ad;
+        border-bottom: solid 2px #00ca8e;
+    }
+    nav a:hover {
+        color:grey;
+    }
+} /*END OF BIG SCREENS*/
+
+
+
+/*Stuff for the main*/
+main {
+    padding: 1rem 6vw;
+    font-size: 1.2rem;
+}
+main h1 {
+    color: #75161e;
+}
+main h2 {
+    color: #16425e;
+    margin-bottom: .2rem;
+}
+main p {
+    color: #2f3133;
+    margin: 0 0 .3rem 0;
+}
+main ol {
+    padding: .5rem 3vw;
+    background-color: #efefef;
+}
+main dl dt {
+    color: #75161e;
+    font-weight: 700;
+}
+main dl dd {
+    color: #16425e;
+    font-size: .9rem;
+}
+main ul {
+    list-style-type: circle;
+
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main address {
+    font-style: normal;
+    background-color: #4cd1ad;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1px solid #16425e;
+    border-radius: 5px;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #eaeaea;
+    text-align: center;
+    color: #16425e;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+footer a {
+    color: #16425e;
+}
+a:hover {
+    color: #75161e;
+}
+
+main a {
+    color: #16425e;
+}
+a:hover {
+    color: #75161e;
+}
+
+figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+
+figure.wrapped img {
+    width:100%;
+    height:auto;
+}
+
+figure.wrapped figcaption {
+    text-align:center;
+    font-size: .75rem;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+div.gallery image {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: .5rem 2% 0 0;
+}
+div.gallery img:hover {
+    box-shadow: 0 0 10px#00ca8e;
+}
+div.gallery figcaption{
+    text-align: center;
+    font-size: .75rem;
+    color: #63484a;
+}
+
+/*Form stuff here */
+.myForm fieldset {
+    border: 1px solid #16425e;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+
+.myForm legend {
+    color: #16425e;
+    font-size: .8rem;
+}
+
+.myForm label {
+    margin: .5rem;
+}
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], .myForm textarea {
+    display:block;
+}
+
+.myForm [type=text], .myForm [type=tel], .myForm [type=email], .myForm select, .myForm textarea {
+    border: solid 1px #888;
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;
+}
+
+.myForm textarea {
+    height: 12rem;
+    width: 100rem;
+}
+.myForm :required {
+    background-color: rgba(156,51,53,0.1)
+}
+.myForm [type=submit] {
+    background-color: #00ca8e;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color:white;
+    margin: 1rem 0 0 1vw;
+}
+/*Tables*/
+table.AppleFees {
+    width:100%;
+    border-collapse: collapse;
+}
+table.AppleFees th {
+    background-color: #00ca8e;
+    color: white;
+    padding: .5rem 2vw;
+    text-align: left;
+}
+table.AppleFees td {
+    color: #75161e;
+    padding: .4rem 2vw;
+}
+table.AppleFees tr:nth-child(even) {
+    background-color: #d4fdf0;
+}
+table.AppleFees tr:hover {
+    background-color: rgba(137, 137, 137, 0.2);
+}
